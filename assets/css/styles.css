@@ -11,7 +11,7 @@
     --first-color-alt:hsl(224, 72%, 50%);
     --container-color:hsl(var(--hue-color), 90%, 100%);
     --title-color:hsl(var(--hue-color), 90%, 0%);
-    --text-color:hsl(var(--hue-color), 2%, 20%);
+    --text-color:hsl(var(--hue-color), 2%, 35%);
     --text-color-light:hsl(var(--hue-color), 7%, 50%);
     --scroll-bar-color:hsl(var(--hue-color), 10%, 80%);
     --scroll-thumb-color:hsl(var(--hue-color), 10%, 40%);
@@ -307,7 +307,7 @@
   column-gap: 1rem;
   justify-self: center;
   height: 100px;
-  background-color: #dae2e625;
+  background-color: #dae2e64b;
   background-clip: padding-box;
   backdrop-filter: blur(80px);
   box-shadow: -5px 10px 20px rgba(14, 55, 63, 0.15);
@@ -441,10 +441,11 @@
   margin-top: var(--mb-1);
   margin-bottom: 2rem;
 }
-.service_data-title{
+.services_data-title{
   font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: var(--mb-0-5);
+  color: rgb(48, 45, 45);
 }
 .button--service{
   display: inline-block;
@@ -768,7 +769,7 @@ iframe{
     margin-bottom: 3rem;
   }
   .home{
-    padding: 4.5rem 0 2rem;
+    padding: 5rem 0 2rem;
   }
   .home_container{
     grid-template-columns: 1.2fr .8fr;
@@ -778,14 +779,14 @@ iframe{
     
   }
   .home_img{
-    position: absolute;
+    position:absolute ;
     width: auto;
-    height: 450px;
+    height: 410px;
     right: 1rem;
   }
 
   .home_stats{
-    bottom: 1.5rem;
+    bottom: 2.5rem;
     column-gap: 4rem;
     height: 100px;
     backdrop-filter: blur(30px);
